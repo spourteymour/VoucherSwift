@@ -24,6 +24,8 @@ class ViewController: UIViewController, VoucherServerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+		let id = Bundle.main.object(forInfoDictionaryKey: "NSBonjourServices") as? NSArray
+
         let uniqueId = "VoucherTest"
         self.server = VoucherServer(uniqueSharedId: uniqueId)
         self.server?.delegate = self
@@ -82,3 +84,4 @@ class ViewController: UIViewController, VoucherServerDelegate {
 
 }
 
+	

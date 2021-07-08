@@ -22,5 +22,7 @@
 	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>NSPrincipalClass</key>
 	<string></string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Some random stuff we need to add</string>
 </dict>
 </plist>

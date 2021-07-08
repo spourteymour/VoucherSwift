@@ -34,7 +34,7 @@
     if (self) {
         self.uniqueSharedId = uniqueSharedId;
         NSString *appString = [self.uniqueSharedId stringByReplacingOccurrencesOfString:@"." withString:@"_"];
-        self.serviceName = [NSString stringWithFormat:kVoucherServiceNameFormat, appString];
+        self.serviceName = uniqueSharedId;
         if (displayName.length == 0) {
             displayName = [UIDevice currentDevice].name;
         }

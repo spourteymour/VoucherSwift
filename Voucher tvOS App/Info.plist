@@ -28,5 +28,7 @@
 	<array>
 		<string>arm64</string>
 	</array>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Looking for local tcp Bonjour service</string>
 </dict>
 </plist>
